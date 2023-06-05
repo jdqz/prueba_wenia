@@ -1,0 +1,11 @@
+{
+  "region_name": "us-east-2",
+  "bucket_name": "bucketjdqzwenia",
+  "bucket_user": "conectorbucket",
+  "bucket_pass": "IVwUyW+gsLHskqQpdI8REK6egPZABzytA1StzrEh",
+  "extensions": [".pdf"],
+  "Access_key_ID": "AKIAT45AYBYW5K23QZUE",
+  "Secret_access_key": "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",
+  "API_key_Google" : "AIzaSyDPfPx_Sz1SkZyKJxZTZ0vEfTvjrWXA7mY",
+  "URL_API_staticmap": "http://maps.google.com/maps/api/staticmap?zoom=6&size=512x512"
+}

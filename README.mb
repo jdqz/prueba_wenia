@@ -1,0 +1,27 @@
+# Proyecto Wenia.
+
+Este proyecto fue desarrollado en Python para cumplir con lo solicitado en la prueba técnica Operaciones Wenia.
+
+
+# Funcionalidades princiaples. 
+
+A continuación se listan las funcionalidades principales que se cubren con el código presente en este repositorio.
+
+1.	Subir uno o varios documentos a AWS S3.
+2.	Extraer la dirección del o los documentos cargados.
+3.	Crear direcciones homónimas a las que hay los documento originales.
+4.	Encontrar las direcciones homónimas con un porcentaje de similitud mayor al 90%.
+5.	Obtener las coordenadas (latitud, longitud) de las similitudes mayores al 90%.
+6.	Generar mapa en formato .PNG con la ubicación de las coordenadas.
+
+
+#### Instalación (Calendarizable / No calendarizable):
+
+1.	Abrir una consola CMD de Windows.
+2.	Crear ambiente virtual dentro de la carpeta del proyecto con el comando python -m venv venv
+3.	Activar el entorno virtual con el comando .\venv\Scripts\activate
+4.	Ubicarse en la consola en la carpeta Proyecto_Wenia donde está el archivo setup.py
+5.	Ejecutar el comando pip install -e .
+6.	Ejecutar el comando python -m proyecto_wenia.ejecucion para iniciar la aplicación
+7.	Insegrese la ruta o archivo a procesar
+8.	En la ruta ingresada se dejarán los resultados del procesamiento. Un Excel resultado.xlsx y los mapas en .PNG.
